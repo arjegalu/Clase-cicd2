@@ -1,0 +1,16 @@
+name: Prueba
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+  welcome:
+    runs-on: ubuntus-latest
+
+    steps:
+    - name: Say something 💡
+      uses: actions/checkout@v2
+
+    - name: mensaje
+      run: echo "hello"
