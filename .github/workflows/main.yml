@@ -5,7 +5,7 @@ on:
     - main
 
 jobs:
-  welcome:
+  Inicial:
     runs-on: ubuntu-latest
 
     steps:
