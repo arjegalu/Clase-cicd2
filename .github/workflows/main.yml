@@ -13,4 +13,5 @@ jobs:
       uses: actions/checkout@v2
 
     - name: mensaje
+      if: ${{ github.ref == 'refs/heads/main'}}
       run: echo "hello"
